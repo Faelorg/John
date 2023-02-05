@@ -1,0 +1,73 @@
+/*all*/
+a{
+    text-decoration: none;
+    font-family: 'Heebo';
+    color: black;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+a:hover{
+    color: lightcoral;
+}
+
+/*all*/
+
+/*Header*/
+
+header{
+    display: flex;
+    justify-content: right;
+    max-width: 90vw;
+    width: 100%;
+}
+
+header a{
+    margin-left: 15px;
+}
+
+/*Header*/
+
+/*Jonh__wrapper*/
+
+.John__wrapper{
+    display: flex;
+
+    justify-content: space-between;
+
+    position: relative;
+
+    max-width: 85vw;
+
+    width: 100%;
+
+    margin: 136px 100px 0px 50px;
+
+}
+
+.text__me{
+    width: 506px;
+    height: 105px;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 60px;
+    color: #21243D;
+
+}
+
+.text__description{
+    margin-top: 62px;
+    color: #21243D;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    width: 497px;
+    height: 66px;  
+}
+
+/*Jonh__wrapper*/
