@@ -1,73 +1,223 @@
+@import url(https://fonts.googleapis.com/css?family=Heebo:100,200,300,regular,500,600,700,800,900);
+
 /*all*/
-a{
-    text-decoration: none;
-    font-family: 'Heebo';
-    color: black;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
+
+:root {
+	--font-def: 'Heebo';
 }
 
-a:hover{
-    color: lightcoral;
+* {
+	font-family: var(--font-def);
+	padding: 0px;
+	margin: 0px;
+}
+
+h1 {
+	font-size: 44px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+}
+
+a:hover {
+	color: lightcoral;
 }
 
 /*all*/
 
 /*Header*/
 
-header{
-    display: flex;
-    justify-content: right;
-    max-width: 90vw;
-    width: 100%;
+header {
+	display: flex;
+	justify-content: right;
+	max-width: 90vw;
+	width: 100%;
 }
 
-header a{
-    margin-left: 15px;
+header a {
+	margin-left: 15px;
 }
 
 /*Header*/
 
-/*Jonh__wrapper*/
+/* john__des */
 
-.John__wrapper{
-    display: flex;
-
-    justify-content: space-between;
-
-    position: relative;
-
-    max-width: 85vw;
-
-    width: 100%;
-
-    margin: 136px 100px 0px 50px;
-
+.john__des {
+	margin-top: 136px;
 }
 
-.text__me{
-    width: 506px;
-    height: 105px;
-    font-family: 'Heebo';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 44px;
-    line-height: 60px;
-    color: #21243D;
+.des__grid {
+	max-width: 45vw;
+	margin: 0 auto;
+	display: grid;
 
+	grid-template-columns: 60% 40%;
 }
 
-.text__description{
-    margin-top: 62px;
-    color: #21243D;
-    font-family: 'Heebo';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    width: 497px;
-    height: 66px;  
+.description {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 44px;
+	line-height: 60px;
+
+	/* or 136% */
+
+	/* Dark Color */
+	color: #21243d;
 }
 
-/*Jonh__wrapper*/
+.description div {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+
+	/* Dark Color */
+	color: #21243d;
+	margin-top: 62px;
+}
+
+.des__img {
+	display: grid;
+	justify-content: right;
+}
+
+.description button {
+	width: 208px;
+	height: 47px;
+
+	margin-top: 51px;
+	/* Primary */
+	background: #ff6464;
+	border-radius: 2px;
+
+	font-family: 'Heebo';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 29px;
+
+	color: #ffffff;
+}
+/* john__des */
+
+/* posts */
+.posts {
+	background: #edf7fa;
+	margin-top: 71px;
+}
+
+.new__posts {
+	max-width: 45vw;
+	margin: 0px auto;
+}
+
+.posts__grid {
+	display: grid;
+
+	grid-template-columns: 50% 50%;
+
+	column-gap: 20px;
+}
+
+.posts__header {
+	display: grid;
+	grid-template-columns: 50% 50%;
+}
+
+.recent__posts {
+	font-family: 'Heebo';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 22px;
+	line-height: 60px;
+
+	/* identical to box height, or 273% */
+
+	/* Dark Color */
+	color: #21243d;
+}
+
+.all {
+	display: grid;
+	justify-content: right;
+	align-content: center;
+}
+.all a {
+	font-family: 'Heebo';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	text-align: right;
+
+	/* Secondry */
+	color: #00a8cc;
+}
+
+.all a:hover {
+	color: #03657b;
+}
+
+.post {
+	background: #ffffff;
+	box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25);
+	border-radius: 4px;
+	padding: 23px 24px 7px 24px;
+}
+
+.post__header {
+	font-family: 'Heebo';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 38px;
+
+	/* Dark Color */
+	color: #21243d;
+}
+
+.post__date {
+	display: grid;
+	grid-template-columns: 30% 70%;
+}
+
+.date {
+	font-family: 'Heebo';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 26px;
+
+	/* Dark Color */
+	color: #21243d;
+}
+
+.pattern {
+	font-family: 'Heebo';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 26px;
+
+	/* Dark Color */
+	color: #21243d;
+}
+
+.post__mes {
+	font-family: 'Heebo';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+
+	/* Dark Color */
+	color: #21243d;
+}
+
+/* posts */
